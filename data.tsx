@@ -19,28 +19,8 @@ import {
 export const socialNetworks = [
   {
     id: 1,
-    logo: <Youtube size={30} strokeWidth={1} />,
-    src: '#!',
-  },
-  {
-    id: 2,
     logo: <Linkedin size={30} strokeWidth={1} />,
-    src: '#!',
-  },
-  {
-    id: 3,
-    logo: <Twitter size={30} strokeWidth={1} />,
-    src: '#!',
-  },
-  {
-    id: 4,
-    logo: <Rss size={30} strokeWidth={1} />,
-    src: '#!',
-  },
-  {
-    id: 5,
-    logo: <Twitch size={30} strokeWidth={1} />,
-    src: '#!',
+    src: 'https://www.linkedin.com/in/ernesto-luismaria-pariona-d%C3%ADaz/',
   },
 ];
 
@@ -69,75 +49,53 @@ export const itemsNavbar = [
     icon: <CodeSquare size={25} color='#fff' strokeWidth={1} />,
     link: '/portfolio',
   },
-  {
-    id: 5,
-    title: 'Home',
-    icon: <Speech size={25} color='#fff' strokeWidth={1} />,
-    link: '/testimonials',
-  },
 ];
 
 export const dataAboutPage = [
   {
     id: 1,
     title: 'Frontend Developer',
-    subtitle: 'TechSolutions',
+    subtitle: 'Arco Iris Comunicación Integral',
     description:
       'Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.',
     date: 'Nov 2023 ',
   },
   {
     id: 2,
-    title: 'Creador de Experiencias Digitales',
-    subtitle: 'PixelCrafters',
-    description:
-      'Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.',
-    date: 'May 2021',
+    title: 'Desarrollador web',
+    subtitle: 'YarosLab',
+    description: 'Desarrollo web con Python, desarrollo de módulos para ODOO',
+    date: 'Dic 2013',
   },
   {
     id: 3,
-    title: 'Especialista en Desarrollo Frontend',
-    subtitle: 'CodeForge Solutions',
+    title: 'Administrador web',
+    subtitle: 'Panacea Consultore',
     description:
-      'Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.',
-    date: 'Ago 2019',
-  },
-  {
-    id: 4,
-    title: 'Prácticas Grado',
-    subtitle: 'WebWizards Inc.',
-    description:
-      'Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ',
-    date: 'Mar 2018',
+      'Mantenimiento de las páginas de las radios de "La Zona" y "Studio92".',
+    date: 'Dic 2012',
   },
 ];
 
 export const dataCounter = [
   {
     id: 0,
-    endCounter: 10,
+    endCounter: 3,
     text: 'Años de experiencia',
     lineRight: true,
     lineRightMobile: true,
   },
   {
     id: 1,
-    endCounter: 80,
+    endCounter: 30,
     text: 'Clientes satisfechos',
     lineRight: true,
     lineRightMobile: false,
   },
   {
     id: 2,
-    endCounter: 220,
+    endCounter: 15,
     text: 'Proyectos finalizados',
-    lineRight: true,
-    lineRightMobile: true,
-  },
-  {
-    id: 3,
-    endCounter: 30,
-    text: 'Premios ganadores',
     lineRight: false,
     lineRightMobile: false,
   },

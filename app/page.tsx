@@ -1,11 +1,16 @@
 import CoverParticles from '@/components/cover-particles';
+import Introduction from '@/components/introduction';
+import TransitionPage from '@/components/transition-page';
 import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className='flex min-h-[100dvh] h-full bg-no-repeat bg-gradient-cover'>
-      <h1>Probando</h1>
-      <CoverParticles />
+    <main>
+      <TransitionPage />
+      <div className='flex min-h-[100dvh] h-full bg-no-repeat bg-gradient-cover'>
+        <CoverParticles />
+        <Introduction />
+      </div>
     </main>
   );
 }
